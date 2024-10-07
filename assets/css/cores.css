@@ -1,0 +1,52 @@
+/* Tema 1: Escuro Azul e Ciano */
+:root {
+    --color-primary: #1abc9c;       /* Ciano */
+    --color-secondary: #16a085;     /* Verde escuro */
+    --color-accent: #2980b9;        /* Azul profundo */
+    --color-background: #0d1117;    /* Fundo muito escuro */
+    --color-text: #c9d1d9;          /* Texto cinza claro */
+    --color-border: #21262d;        /* Bordas escuras */
+  }
+  
+  /* Tema 2: Escuro Roxo e Magenta */
+  :root {
+    --color-primary: #9b59b6;       /* Roxo */
+    --color-secondary: #8e44ad;     /* Roxo profundo */
+    --color-accent: #e91e63;        /* Magenta */
+    --color-background: #1a1a2e;    /* Fundo escuro */
+    --color-text: #e0e0e0;          /* Texto claro */
+    --color-border: #2e2e52;        /* Bordas azuladas */
+  }
+  
+  /* Tema 3: Escuro Verde e Azul Petróleo */
+  :root {
+    --color-primary: #2ecc71;       /* Verde */
+    --color-secondary: #27ae60;     /* Verde escuro */
+    --color-accent: #1abc9c;        /* Azul petróleo */
+    --color-background: #141414;    /* Fundo preto suave */
+    --color-text: #d4d4d4;          /* Texto claro */
+    --color-border: #323232;        /* Bordas escuras */
+  }
+  
+  
+  /* Tema 4: Escuro Vermelho e Laranja */
+  :root {
+    --color-primary: #e74c3c;       /* Vermelho */
+    --color-secondary: #c0392b;     /* Vermelho escuro */
+    --color-accent: #e67e22;        /* Laranja queimado */
+    --color-background: #2c2c2c;    /* Fundo grafite escuro */
+    --color-text: #ecf0f1;          /* Texto cinza claro */
+    --color-border: #404040;        /* Bordas escuras */
+  }
+  */
+  
+  /* Tema 5: Escuro Cinza e Azul */
+  :root {
+    --color-primary: #34495e;       /* Azul cinza */
+    --color-secondary: #2c3e50;     /* Azul mais escuro */
+    --color-accent: #95a5a6;        /* Cinza claro */
+    --color-background: #1b1b1b;    /* Fundo preto fosco */
+    --color-text: #bdc3c7;          /* Texto cinza claro */
+    --color-border: #4f4f4f;        /* Bordas escuras */
+  }
+  
