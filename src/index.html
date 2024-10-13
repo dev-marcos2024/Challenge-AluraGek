@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/imgs/fivicon.png" type="image/svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Challenge AluraGek</title>
+</head>
+<body>
+
+   <header >
+    <div class="container header">
+        <div class="logo">
+            <i class="bi bi-controller"></i>
+            <i class="bi bi-controller"></i>
+            <i class="bi bi-controller"></i>
+        </div>
+        <h1 class="tart-2p">AluraGeek</h1>
+    </div>
+   </header>
+
+   <main>
+        <div class="container main">
+            <section class="section__produtos">
+                <h1 class="main__title tart-2p">meus produtos</h1>
+                <div id="cards" class="main__cards"></div>
+            </section>
+    
+            <section class="main__form">
+                <h1 class="main__title tart-2p">ADICIONAR PRODUTO:</h1>
+                <form action="cadastro.php" method="post" id="form">
+                    <input type="text" name="nome" placeholder="Nome">
+                    <div class="msg"></div>
+                    <input type="text" name="preco" placeholder="Preço">
+                    <div class="msg"></div>
+                    <input type="text" name="src" placeholder="Link da capa do jogo">
+                    <div class="msg"></div>
+                    <div class="action">
+                        <button id="salvar">Salvar</button>
+                        <button id="limpar">Limpar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+   </main>
+
+  
+   <footer >
+        <div class="container footer">
+            <div class="footer__logo">
+                <div class="logo">
+                    <i class="bi bi-controller"></i>
+                    <i class="bi bi-controller"></i>
+                    <i class="bi bi-controller"></i>
+                </div>
+                <h1 class="tart-2p">AluraGeek</h1>
+            </div>
+            <p>desenvolvido por Marcos Roberto</p>
+            <p>Alura Latam- 202x</p>
+        </div>
+   </footer>
+
+   <script src="./data/jogos.js"></script>
+   <script src="render.js"></script>
+   <script src="main.js"></script>
+</body>
+</html>
